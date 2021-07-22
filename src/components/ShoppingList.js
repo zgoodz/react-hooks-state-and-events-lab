@@ -13,6 +13,8 @@ function ShoppingList({ items }) {
   }
 
   function laMao() {
+
+    
     switch (selectedCategory) {
       case 'Produce' :
         let produceItems = items.filter((item) => item.category === selectedCategory) 
